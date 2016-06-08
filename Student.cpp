@@ -28,7 +28,7 @@ Student::~Student()
 
 void Student::addCourse( const int courseId, const string courseName )
 {
-   if( this->getCourse(courseId) != NULL ) //if course doesnt exist
+   if( this->getCourse(courseId) != NULL ) //if course doesn't exist
     {
         cout << "Student " << this->studentId << " is already enrolled in class "<< courseId << endl;
     }
